@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agencia de Viajes Especializaada en Experiencias Únicas">
+    <title>Adventure-Agencia de Viajes</title>
+    <meta name="keywords" content="Viajes, paisajes, México, planes, promociones">
+    <link rel="icon" href="../img/LetraA.jpeg" type="image/png">
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <link rel="stylesheet" href="../css/menu.css" type="text/css">
+    <link rel="stylesheet" href="../css/forms.css" type="text/css">
+</head>
+<body>
+    <div id="contenedor">
+        <div id="encabezado">
+            <img src="/Agencia de viajes/img/Mundo1.jpeg" alt="imagen encabezado" width="1000px" height="200px">
+            <br>
+            <img src="/Agencia de viajes/img/Adventure.jpeg" alt="logo Adventure Agencia de Viajes"
+            width="250px" height="59px" id="logo">
+            <div id="menu">
+                <ul>
+                    <li><a href="../Index.html">Inicio</a></li>
+                    <li><a href="../promociones.html">Promociones</a></li>
+                    <li><a href="../nosotros.html">Nosotros</a></li>
+                    <li><a href="../contacto/contacto.html">Contacto</a></li>
+                </ul>
+
+
+            </div>
+        </div>
+
+        <div id="contenido">
+            <form id="contacto" method="post" post="sendMail.php">
+                <label for="nombre">Nombre: </label> <br>
+                <input type="text" placeholder="Nombre" name="nombre" > <br>
+                <label for="email">Email</label> <br>
+                <input type="email" placeholder="Email" name="email" > <br>
+                <label for="telefono">Telefono: </label> <br>
+                <input type="text" placeholder="Telefono" name="telefono" > <br>
+                <label for="celular">Celular: </label> <br>
+                <input type="text" placeholder="Celular" name="celular" > <br>
+                <label for="ciudad">Ciudad: </label> <br>
+                <input type="text" placeholder="Ciudad" name="ciudad" > <br>
+                <label for="mensaje">Mensaje: </label> <br>
+                <textarea type="text" placeholder="Mensaje" name="mensaje" cols="30" rows="20"></textarea><br>
+                <input name="Submit" class="submit" type="submit" value="Enviar">
+            </form>
+
+        </div>
+        <div id="lateral">
+            <img src="/Agencia de viajes/img/Cascada.jpeg" alt="Huasteca Potosina" width="200px" height="200px" class="fotos">
+            <h2>Promoción del mes</h2>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus dolores qui laboriosam quaerat vel modi maiores eius quidem ex culpa.</p>
+
+
+        </div>
+
+        <div id="pie">
+            <p>Adventure Agencia de Viajes, la empresa de viajes turísticos líder de México</p>
+            <p>Carrera 28 No. 28-124 - Los Ciruelos - Télefono (992-1218868)</p>
+            <p>México, D.F</p>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
